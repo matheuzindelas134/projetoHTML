@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Jaro", sans-serif;
+    font-size: 35px;
+}
+
+
+.info_sobre .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+
+.imagem_perfil {
+    max-width: 200px;
+    border-radius:0%;
+    border: 10px solid rgb(82, 50, 177);
+    z-index: 1;
+}
+
+.textos {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+}
+
+.info_sobre {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    
+}
+
+.portifolio1 h2{
+    color: #fefefe;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-size: 50px;
+}
+
+.portifolio1 p{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-size: 90px;
+
+}
+.info_sobre p {
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.Sobre p{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 39px;
+}
+
+a:hover {
+    color: rgb(255, 0, 60);
+    font-family: "Jaro", sans-serif;
+}
+
+.primary-bg {
+    min-height: 100vh;
+    background-color: #1a025c;
+    padding: 5rem 0;
+    color: white;
+    background-image: url(pixel-jeff-clipc-s.gif);
+}
+.secondary-bg{
+    min-height: 100vh;
+    background-color: #1a025c;
+    padding: 5rem 0;
+    color: white;
+    background-image: url(pixel-jeff-clipc-s.gif);
+
+}
+.Sobre p{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    color: #ffffff;
+    font-size: 54px;
+}
+
+.Sobre h2{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portifolio1 p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.container ul li {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    z-index: 1;
+}
+
+.skills-list li {
+    margin: 0 1rem;
+}
+
+.skills-list img {
+    width:250px;
+    max-width: 200px;
+    border-radius: 50%;
+    z-index: 1;
+}
